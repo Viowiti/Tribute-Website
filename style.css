@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+	background-color: #3b3932;
+	color: ghostwhite;
+	max-width: 900px;
+	margin: auto;
+}
+.movie-poster{
+	max-width: 700px;
+	
+	height: auto;
+}
+#image{
+	max-width: 900px;
+	margin-bottom: 20px;
+	
+	height: auto;
+}
+
+#title, div{
+	display: flex;
+}
+.panthericon{
+	width: 20%;
+	height: inherit;
+	margin-rigth: 10px;
+}
+section,p{
+	font-family: 'Barlow', sans-serif;
+	font-size: 2.5rem;
+}
+#title{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: whitesmoke 1px;
+	margin-bottom: 12px;
+	font-family: 'Fredoka One', cursive;
+
+
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+}
+section{
+	border: 1px  solid;
+	margin: 20px 0 20px;
+	padding: 3px 3px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+h2{
+	font-size: 3rem;
+	padding: 0;
+}
+
+#img-div p{
+	
+	margin-bottom: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	max-width: 900px;
+}
+
+#tribute-info{
+	
+	margin-bottom: 12px;
+}
+
+footer{
+
+	margin-bottom: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#foots{
+	max-width: 1200px;
+}
+#foots, p{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+.p-tags{
+	font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+}
